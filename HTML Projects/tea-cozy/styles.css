@@ -1,0 +1,130 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-flex;
+    padding-right: 15px;
+}
+
+.mission {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1bpzmg1*_ga*MTMzMDQ1NDIxNS4xNzAwNTM5ODI4*_ga_3LRZM6TM9L*MTcwMDYyNTExOS4yLjEuMTcwMDYyNTc4OS40NC4wLjA.");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Center and cover the entire container */
+    width: 1200px; /* Make the container full-width */
+    max-width: 1200px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.statement {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    top: 300px;
+    opacity: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.statement h2 {
+    font-size: 34px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.statement h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tom h2 {
+    font-size: 34px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.tom h4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.featuredT {
+    padding: 20px;
+    width: 1000px;
+    align-items: center;
+    margin: 0 auto; /* This makes it so the featured is centered */
+}
+
+.tea-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.tea-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.tea-item p {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.locations {
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1bpzmg1*_ga*MTMzMDQ1NDIxNS4xNzAwNTM5ODI4*_ga_3LRZM6TM9L*MTcwMDYyNTExOS4yLjEuMTcwMDYyNTc4OS40NC4wLjA.");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Center and cover the entire container */
+    width: 1200px; /* Make the container full-width */
+    max-width: 1200px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.locations h2 {
+    font-size: 34px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 1;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    background: burlywood;
+    font-size: 28px;
+}
+
+table {
+    text-align: left;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: goldenrod;
+}
